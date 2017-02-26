@@ -1,3 +1,5 @@
+// http://regexr.com/3fd0h
+
 function telephoneCheck(str) {
   var regExp = /^([1]?[ ]*)?(([(](\d{3})[) ]*)|([ ]*(\d{3})[ -]*))((\d{3})[- )]*)((\d{4}))$/;
   return regExp.test(str);
